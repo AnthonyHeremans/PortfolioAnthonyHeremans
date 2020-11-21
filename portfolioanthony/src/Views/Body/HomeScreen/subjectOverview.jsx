@@ -1,5 +1,3 @@
-// import '../../../Styles/Body/HomeScreen/subjectOverview.scss';
-// import '../../../Styles/Utilities/utils.scss';
 import SubjectCard from './subjectCard';
 import React from "react";
 import MovingSquares from "./movingSquares";

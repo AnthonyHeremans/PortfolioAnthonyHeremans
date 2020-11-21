@@ -1,7 +1,4 @@
-// import '../../../Styles/Body/HomeScreen/subjectOverview.scss';
-// import '../../../Styles/Utilities/utils.scss';
 import React from "react";
-
 
 function MovingSquares() {
     return (
