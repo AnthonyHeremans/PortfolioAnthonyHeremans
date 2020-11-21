@@ -1,12 +1,12 @@
-// import '../../../Styles/Body/HomeScreen/SubjectOverview.scss';
-// import '../../../Styles/Utilities/Utils.scss';
+// import '../../../Styles/Body/HomeScreen/subjectOverview.scss';
+// import '../../../Styles/Utilities/utils.scss';
 import React from "react";
 
 
 function MovingSquares() {
     return (
         <div>
-            <ul className="box-area">
+            <ul className="moving-squares_box-area">
                 <li></li>
                 <li></li>
                 <li></li>

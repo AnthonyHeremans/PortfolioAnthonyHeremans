@@ -33,28 +33,23 @@
 //  background-color: rgba(0,0,255,0.5);  // blue
 //}
 
-.textStyleMainPage {
-  text-align: center;
-  vertical-align: middle;
-}
-
-img{
-    display: block;
-}
-
-.hoverForImg{
+.subject-overview_hover-for-img {
   color: #000;
+
   &:hover {
     color: #ed1212;
     cursor: pointer;
 
   }
-  &:hover + .show{
+
+  &:hover + .show {
     display: none;
   }
 }
-.centerText{
+
+.subject-overview_center-text {
   display: flex;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
 }

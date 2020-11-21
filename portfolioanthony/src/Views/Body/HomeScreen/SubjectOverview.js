@@ -1,17 +1,17 @@
-// import '../../../Styles/Body/HomeScreen/SubjectOverview.scss';
-// import '../../../Styles/Utilities/Utils.scss';
-import SubjectCard from './SubjectCard';
+// import '../../../Styles/Body/HomeScreen/subjectOverview.scss';
+// import '../../../Styles/Utilities/utils.scss';
+import SubjectCard from './subjectCard';
 import React from "react";
-import MovingSquares from "./MovingSquares";
+import MovingSquares from "./movingSquares";
 
 function SubjectOverview() {
     return (
 
-    <div className="animation-area">
+    <div className="subject-overview_animation-area">
 
         <MovingSquares />
 
-        <div className="subject_overview_grid">
+        <div className="subject_overview-grid">
             <SubjectCard title="Anthony" description="About me"/>
 
             <SubjectCard title="Work" description="Experience"/>

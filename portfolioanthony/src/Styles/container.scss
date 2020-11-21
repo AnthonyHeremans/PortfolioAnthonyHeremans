@@ -2,17 +2,19 @@
 @import 'App';
 
 //Utilities
-@import 'Utilities/Utils';
-@import 'Utilities/Margin';
+@import 'Utilities/utils';
+@import 'Utilities/margin';
 
 //Header
-@import 'Header/Header';
-@import 'Header/Navbar';
+@import 'Header/header';
+@import 'Header/navbar';
+@import 'Header/logo';
 
 //Body
 //HomeScreen
-@import 'Body/HomeScreen/SubjectCard';
-@import 'Body/HomeScreen/SubjectOverview';
+@import 'Body/HomeScreen/subjectCard';
+@import 'Body/HomeScreen/subjectOverview';
+@import 'Body/HomeScreen/movingSquares';
 
 //footer
 @import 'Footer/footer';

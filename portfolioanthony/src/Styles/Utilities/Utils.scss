@@ -1,20 +1,20 @@
-@import 'Margin';
-
-.flex {
+.utils_flex {
   display: flex;
 }
-.column{
+
+.utils_column {
   flex-direction: column;
 }
 
-.stretch {
+.utils_stretch {
   align-items: stretch
 }
 
-.BalooFont{
-    font-family: 'Baloo 2', cursive;
+.utils_baloo-font {
+  font-family: 'Baloo 2', cursive;
 }
-.grid{
+
+.utils_grid-layout-webpage {
   display: grid;
   grid-template-rows: 5% auto 5%;
 }
