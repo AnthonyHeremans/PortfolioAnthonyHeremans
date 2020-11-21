@@ -1,5 +1,5 @@
-import './SubjectOverview.scss';
-import '../../Utilities/Utils.scss';
+// import '../../../Styles/Body/HomeScreen/SubjectOverview.scss';
+// import '../../../Styles/Utilities/Utils.scss';
 import React from "react";
 
 

@@ -1,5 +1,5 @@
-import './SubjectOverview.scss';
-import '../../Utilities/Utils.scss';
+// import '../../../Styles/Body/HomeScreen/SubjectOverview.scss';
+// import '../../../Styles/Utilities/Utils.scss';
 import SubjectCard from './SubjectCard';
 import React from "react";
 import MovingSquares from "./MovingSquares";
@@ -11,7 +11,7 @@ function SubjectOverview() {
 
         <MovingSquares />
 
-        <div className="flex stretch">
+        <div className="subject_overview_grid">
             <SubjectCard title="Anthony" description="About me"/>
 
             <SubjectCard title="Work" description="Experience"/>
@@ -20,6 +20,7 @@ function SubjectOverview() {
 
             <SubjectCard title="Blog" description="Social"/>
         </div>
+
     </div>
     );
 }

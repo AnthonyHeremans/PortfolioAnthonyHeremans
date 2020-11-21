@@ -35,7 +35,7 @@
 
 .textStyleMainPage {
   text-align: center;
-  margin-top: 45vh;
+  vertical-align: middle;
 }
 
 img{
@@ -52,4 +52,9 @@ img{
   &:hover + .show{
     display: none;
   }
+}
+.centerText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

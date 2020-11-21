@@ -29,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -47,6 +47,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Styles/Body/HomeScreen" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -54,8 +55,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Styles\Body\HomeScreen" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Views" />
+      <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Styles" />
+      <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Styles\Header" />
+      <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Styles\Footer" />
+      <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Styles\Body\HomeScreen" />
+      <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Views\Body\HomeScreen" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -82,7 +90,9 @@
       <option name="presentableId" value="Default" />
       <updated>1605806702646</updated>
       <workItem from="1605806703805" duration="2489000" />
-      <workItem from="1605809630330" duration="14124000" />
+      <workItem from="1605809630330" duration="14325000" />
+      <workItem from="1605879629750" duration="11273000" />
+      <workItem from="1605962275996" duration="1338000" />
     </task>
     <servers />
   </component>
@@ -110,14 +120,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="345" key="SettingsEditor/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1605823529290" />
+    <state x="1001" y="441" width="540" height="524" key="StructurePopup" timestamp="1605897375099">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1001" y="441" width="540" height="524" key="StructurePopup/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1605897375099" />
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605808013844">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1605808013844" />
-    <state x="987" y="299" width="585" height="801" key="find.popup" timestamp="1605812481716">
+    <state x="987" y="299" width="585" height="801" key="find.popup" timestamp="1605902597586">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="987" y="299" width="585" height="801" key="find.popup/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1605812481716" />
+    <state x="987" y="299" width="585" height="801" key="find.popup/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1605902597586" />
     <state x="936" y="330" key="run.anything.popup" timestamp="1605811487303">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
