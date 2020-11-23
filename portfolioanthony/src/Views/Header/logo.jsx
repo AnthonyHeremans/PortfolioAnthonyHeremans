@@ -1,13 +1,20 @@
 import React from "react";
+import icon from '../../icon-white.png';
+import {Link} from "react-router-dom";
+
 
 function Logo() {
     return (
-            <div className="utils_flex">
-                <img className="u-m-2" alt="Personal Logo" src="../../../public/logo192.png"/>
-                <h4 className="u-m-2">Anthony Heremans</h4>
-            </div>
-    );
+        <Link className="utils_flex u-m-l-10" to={'/'}>
 
+            <div className="header_center-text u-m-lr logo_image-size">
+                <img alt="Personal Logo" src={icon}/>
+            </div>
+            <div className="header_center-text u-m-lr">
+                <h4>Anthony Heremans</h4>
+            </div>
+        </Link>
+    );
 }
 
 export default Logo;

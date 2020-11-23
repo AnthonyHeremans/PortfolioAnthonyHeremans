@@ -2,3 +2,18 @@
   display: flex;
   justify-content: space-between;
 }
+
+.header_background {
+  background: linear-gradient(to left, #000000, #211f1f);
+}
+
+.header_text-color {
+  color: whitesmoke;
+}
+
+.header_center-text {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -4,11 +4,13 @@
 }
 
 .subject-overview_animation-area {
-  background: linear-gradient(to left, #131313, #2b2828);
   width: 100%;
   justify-content: space-between;
 }
 
+.subject-overview_background {
+  background: linear-gradient(to left, #131313, #222121);
+}
 
 .subject_overview-grid {
   display: grid;
@@ -16,4 +18,7 @@
   height: 100%;
 }
 
+.subject-overview_text-color {
+  color: #e0dcdc;
+}
 

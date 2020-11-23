@@ -1,12 +1,32 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Navbar() {
     return (
-        <div className="utils_flex">
-                <h4 className="u-m-2">row 1</h4>
-                <h4 className="u-m-2">row 2</h4>
-                <h4 className="u-m-2">row 3</h4>
-        </div>
+        <nav className="utils_flex">
+            <div className="utils_flex">
+
+                <h4 className="header_center-text u-m-lr">
+                    <Link to={'/'}> Home </Link>
+                </h4>
+
+                <h4 className="header_center-text u-m-lr">
+                    <Link to={'/WIP'}>About me</Link>
+                </h4>
+
+                <h4 className="header_center-text u-m-lr">
+                    <Link to={'/WIP'}>Work</Link>
+                </h4>
+
+                <h4 className="header_center-text u-m-lr">
+                    <Link to={'/WIP'}>Achievements</Link>
+                </h4>
+
+                <h4 className="header_center-text u-m-lr">
+                    <Link to={'/WIP'}>Social</Link>
+                </h4>
+            </div>
+        </nav>
     );
 }
 

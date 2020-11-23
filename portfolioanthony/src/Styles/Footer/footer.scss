@@ -1,3 +1,14 @@
-.footer {
-  background-color: #ed1212;
+.footer_background {
+  background: linear-gradient(to left, #000000, #211f1f);
 }
+
+.footer_center-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer_icons-right {
+  justify-content: flex-end;
+}
+
