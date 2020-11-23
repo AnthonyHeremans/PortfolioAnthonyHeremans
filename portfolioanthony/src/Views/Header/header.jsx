@@ -4,8 +4,7 @@ import Logo from "./logo";
 
 function Header() {
     return (
-        <div className="header_flex header_background
-        header_text-color utils_Circularpro-font">
+        <div className="header_flex header_background color_header-background text_Circularpro-font">
 
             <Logo/>
 

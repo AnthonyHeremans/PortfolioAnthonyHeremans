@@ -1,25 +1,23 @@
 import React from "react";
-import Home from "./Body/HomeScreen/subjectOverview";
-import WIP from "./HelperPages/wip";
-import Header from "./Header/header";
-import Footer from "./Footer/footer";
-import Body from "./Body/body";
 import '../Styles/container.scss';
 
-import {BrowserRouter as Router} from "react-router-dom";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import AboutMe from "./Body/AboutMe/aboutMe";
+import WIP from "./HelperPages/wip";
+
+import PageNotFound from "./HelperPages/pageNotFound";
+import SubjectOverview from "./Body/HomeScreen/subjectOverview";
 
 function App() {
     return (
         <Router>
-            <div className="wrapper utils_flex utils_column space_evenly utils_grid-layout-webpage">
+            <Switch>
+                <Route exact path='/AboutMe' component={AboutMe} />
+                <Route exact path='/WIP' component={WIP} />
+                <Route exact path='/' component={SubjectOverview} />
+                <Route component={PageNotFound}/>
 
-                <Header/>
-
-                <Body/>
-
-                <Footer/>
-
-            </div>
+            </Switch>
         </Router>
     );
 }

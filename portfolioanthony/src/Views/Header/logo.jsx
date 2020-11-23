@@ -8,7 +8,7 @@ function Logo() {
         <Link className="utils_flex u-m-l-10" to={'/'}>
 
             <div className="header_center-text u-m-lr logo_image-size">
-                <img alt="Personal Logo" src={icon}/>
+                <img className='logo_logo-size' alt="Personal Logo" src={icon}/>
             </div>
             <div className="header_center-text u-m-lr">
                 <h4>Anthony Heremans</h4>

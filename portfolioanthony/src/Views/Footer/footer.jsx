@@ -2,7 +2,7 @@ import React from "react";
 
 function footer() {
     return (
-        <div className="utils_flex footer_background utils_Circularpro-font footer_icons-right">
+        <div className="utils_flex color_footer-background text_Circularpro-font footer_icons-right">
             <h4 className="u-m-2 footer_center-text">Facebook</h4>
             <h4 className="u-m-2 footer_center-text">Instagram</h4>
             <h4 className="u-m-2 footer_center-text">Github</h4>

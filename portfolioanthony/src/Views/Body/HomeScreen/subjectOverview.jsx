@@ -1,25 +1,32 @@
 import SubjectCard from './subjectCard';
 import React from "react";
 import MovingSquares from "./movingSquares";
+import Footer from "../../Footer/footer";
+import Layout from "../../Layout/layout";
 
 function SubjectOverview() {
     return (
+        <Layout styleForWrapper='wrapper utils_flex utils_column space_evenly utils_grid-layout-webpage'>
 
-    <div className="subject-overview_animation-area subject-overview_background">
+            <div className="subject-overview_animation-area subject-overview_background">
 
-        <MovingSquares />
+                <MovingSquares/>
 
-        <div className="subject_overview-grid subject-overview_text-color">
-            <SubjectCard title="Anthony" description="About me"/>
+                <div className="subject_overview-grid color_background">
+                    <SubjectCard title="Anthony" description="About me" link='/AboutMe'/>
 
-            <SubjectCard title="Work" description="Experience"/>
+                    <SubjectCard title="Work" description="Experience"/>
 
-            <SubjectCard title="Achievements" description="Prices"/>
+                    <SubjectCard title="Achievements" description="Prices"/>
 
-            <SubjectCard title="Blog" description="Social"/>
-        </div>
+                    <SubjectCard title="Blog" description="Social"/>
+                </div>
 
-    </div>
+                <Footer/>
+
+            </div>
+
+        </Layout>
     );
 }
 
