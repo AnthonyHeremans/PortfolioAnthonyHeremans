@@ -15,7 +15,7 @@ function SubjectOverview() {
                 <div className="subject_overview-grid color_background">
                     <SubjectCard title="Anthony" description="About me" link='/AboutMe'/>
 
-                    <SubjectCard title="Work" description="Experience"/>
+                    <SubjectCard title="Work" description="Experience" link='/Work'/>
 
                     <SubjectCard title="Achievements" description="Prices"/>
 

@@ -1,11 +1,17 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Layout from '../../../Layout/layout'
 import SubjectLayout from "../../../Layout/subjectLayout";
+import helperFunctions from '../../../../Logic/Helpers/helperFunctions'
 
 function AboutMe() {
+
+    useEffect(() => {
+        helperFunctions.goToTopOfPage();
+    }, [])
+
     return (
         <Layout styleForWrapper='utils_flex utils_column space_evenly'>
-            <SubjectLayout title='All About Me' nextSubject='Work Experience' linkNextPage='/WIP' >
+            <SubjectLayout title='All About Me' nextSubject='Work Experience' linkNextPage='/Work' >
 
                 <div className='about-me_title-text'>Anthony Heremans</div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus suscipit nisl, in

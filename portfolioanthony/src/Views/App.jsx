@@ -7,6 +7,7 @@ import WIP from "./HelperPages/wip";
 
 import PageNotFound from "./HelperPages/pageNotFound";
 import SubjectOverview from "./Body/HomeScreen/subjectOverview";
+import Work from "./Body/SubjectPages/Work/work";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <Switch>
                 <Route exact path='/AboutMe' component={AboutMe} />
                 <Route exact path='/WIP' component={WIP} />
+                <Route exact path='/Work' component={Work} />
                 <Route exact path='/' component={SubjectOverview} />
                 <Route component={PageNotFound}/>
 
