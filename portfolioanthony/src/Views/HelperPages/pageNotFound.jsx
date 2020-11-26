@@ -5,7 +5,7 @@ import Layout from "../Layout/layout";
 
 function pageNotFound() {
     return (
-        <Layout styleForWrapper='wrapper utils_flex utils_column space_evenly  utils_grid-layout-webpage'>
+        <Layout styleForWrapper='wrapper utils_flex utils_column space_evenly utils_grid-layout-webpage-only-header'>
             <div className='color_background utils_flex wip_center-content'>
                 <div className='utils_column'>
 

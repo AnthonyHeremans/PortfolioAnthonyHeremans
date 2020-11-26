@@ -15,5 +15,10 @@
   height: 100vh;
   grid-template-rows: 7% auto 5%;
 }
+.utils_grid-layout-webpage-only-header {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 7% 93%;
+}
 
 

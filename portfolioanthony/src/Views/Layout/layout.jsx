@@ -3,13 +3,13 @@ import Header from "../Header/header";
 
 function Layout({styleForWrapper, children}) {
     return (
-            <div className={styleForWrapper}>
+        <div className={styleForWrapper}>
 
-                <Header/>
+            <Header/>
 
-                {children}
+            {children}
 
-            </div>
+        </div>
     );
 }
 

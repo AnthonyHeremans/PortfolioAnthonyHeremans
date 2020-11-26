@@ -1,0 +1,29 @@
+.subject-Footer{
+  color: white;
+  justify-content: space-between;
+}
+
+.subject-Footer_next-subject{
+  font-family: 'Circularpro book', sans-serif;
+  color: #fff;
+  line-height: 50px;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.subject-Footer_right{
+  top: 25%;
+  right: 4%;
+  bottom: 0px;
+  width: 50px;
+  height: 50px;
+  background-image: url('../../arrow.svg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.subject-Footer_padding{
+  padding: 8%;
+}

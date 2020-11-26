@@ -16,7 +16,13 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d96cec0d-d868-4877-8690-a38f21159457" name="Default Changelist" comment="" />
@@ -56,11 +62,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Views\Layout" />
       <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src" />
-      <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Views\Header" />
-      <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Views" />
-      <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Tests" />
+      <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Styles\Layout" />
+      <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Views\Layout" />
+      <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Styles\Body\SubjectPages" />
+      <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Views\Body\SubjectPages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\GitProjects\PortfolioAnthonyHeremans\portfolioanthony\src\Styles\HelperPages" />
@@ -95,7 +101,7 @@
       <workItem from="1605809630330" duration="14325000" />
       <workItem from="1605879629750" duration="11273000" />
       <workItem from="1605962275996" duration="19586000" />
-      <workItem from="1606148017655" duration="14832000" />
+      <workItem from="1606148017655" duration="31746000" />
     </task>
     <servers />
   </component>
@@ -119,6 +125,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="949" y="478" width="662" height="678" key="EditFileWatcherDialog/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1605816161992" />
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1606236966691">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1606236966691" />
     <state x="781" y="345" key="SettingsEditor" timestamp="1605823529290">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -131,10 +141,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1605808013844" />
-    <state x="987" y="299" width="585" height="801" key="find.popup" timestamp="1606171130372">
+    <state x="987" y="299" width="585" height="801" key="find.popup" timestamp="1606429088634">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="987" y="299" width="585" height="801" key="find.popup/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1606171130372" />
+    <state x="987" y="299" width="585" height="801" key="find.popup/0.0.2560.1400/-1920.116.1920.1040@0.0.2560.1400" timestamp="1606429088634" />
     <state x="936" y="330" key="run.anything.popup" timestamp="1605811487303">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

@@ -2,7 +2,7 @@ import React from "react";
 import '../Styles/container.scss';
 
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import AboutMe from "./Body/AboutMe/aboutMe";
+import AboutMe from "./Body/SubjectPages/AboutMe/aboutMe";
 import WIP from "./HelperPages/wip";
 
 import PageNotFound from "./HelperPages/pageNotFound";

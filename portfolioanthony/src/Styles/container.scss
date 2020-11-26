@@ -16,10 +16,17 @@
 @import 'Header/logo';
 
 //Body
+//SubjectLayout
+@import 'Layout/subjectLayout';
+@import 'Layout/subjectFooter';
+
 //HomeScreen
 @import 'Body/HomeScreen/subjectCard';
 @import 'Body/HomeScreen/subjectOverview';
 @import 'Body/HomeScreen/movingSquares';
+
+//AboutMe
+@import "Body/SubjectPages/AboutMe/aboutMe";
 
 //footer
 @import 'Footer/footer';

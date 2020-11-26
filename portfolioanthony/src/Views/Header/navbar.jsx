@@ -11,7 +11,7 @@ function Navbar() {
                 </h4>
 
                 <h4 className="header_center-text u-m-lr">
-                    <Link to={'/WIP'}>About me</Link>
+                    <Link to={'/AboutMe'}>About me</Link>
                 </h4>
 
                 <h4 className="header_center-text u-m-lr">
